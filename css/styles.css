@@ -1,0 +1,178 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #2f303a;
+    --section-bg-color: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    background-color: var(--main-bg-color);
+      
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.contact {
+    list-style: none;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-bg-color);
+}
+
+.hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-bg-color);
+    background-color: var(--accent-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+.offer-title {
+    display: none;
+}
+
+.offer-list {
+    list-style: none;
+}
+
+.offer-list-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--main-text-color)
+}
+
+.offer-list-text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+}
+
+.duties-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.duties-list {
+    list-style: none;
+}
+
+.team {
+    background-color: var(--section-bg-color);
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--main-text-color)
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.footer {
+    background-color: var(--secondary-bg-color);
+}
+.location {
+    font-style: normal;
+}
+
+.location-list {
+    list-style: none;
+}
+
+.location-link {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-bg-color);
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+.location-link:hover,
+.location-link:focus {
+    color: var(--accent-color);
+}

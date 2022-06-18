@@ -12,7 +12,9 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    color: var(--main-text-color);
     background-color: var(--main-bg-color);
+
       
 }
 
@@ -91,6 +93,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--main-bg-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .hero-button:hover,
@@ -119,7 +122,7 @@ body {
 .offer-list-title {
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--main-text-color)
+    
 }
 
 .offer-list-text {
@@ -146,7 +149,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--main-text-color)
+    
 }
 
 .team-list {
@@ -162,7 +165,7 @@ body {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: var(--main-text-color);
+    
 }
 
 .team-position {
@@ -222,17 +225,18 @@ body {
     list-style: none;
 }
 
-.filter-item {
+.filter-button {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    color: var(--main-text-color);
-    background-color: var(--section-bg-color)
+    background-color: var(--section-bg-color);
+    cursor: pointer;
+    
 }
 
-.filter-item:hover,
-.filter-item:focus {
+.filter-button:hover,
+.filter-button:focus {
     color: var(--main-bg-color);
     background-color: var(--accent-color);
 }
@@ -245,7 +249,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--main-text-color);
+    
 }
 
 .portfolio-item p {
